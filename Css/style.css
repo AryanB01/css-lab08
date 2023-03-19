@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.button{
+    background-color:#ffc900;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: 2px 5px 5px 7px rgb(154, 139, 139);
+    padding: 20px 1em;
+    font-weight: bolder;
+    transition: all 0.3s;
+   
+}
+.button{
+    /* fallback */
+    background-color: black;
+    background-image: linear-gradient( #ffc900, #ffa500);
+}
+
+.button:hover{
+    transform: scale(0.9);
+}
